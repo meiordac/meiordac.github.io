@@ -16,9 +16,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NavComponent } from './nav/nav.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, NavComponent, DashboardComponent],
+  declarations: [AppComponent, NavComponent, DashboardComponent, HomeComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
