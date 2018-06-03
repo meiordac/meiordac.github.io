@@ -17,5 +17,10 @@
 }
 
 .dashboard-card-content {
-  text-align: center;
+  text-align: justify;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 200px;
 }
